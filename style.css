@@ -245,7 +245,7 @@ flex-direction: column;
 }
 
 .iframecard {
-height: 55%;
+width: 260px;
 }
 
 .card-description {
@@ -265,6 +265,31 @@ justify-content: space-evenly;
   background-color: transparent;
   border: 2px solid #311fdc;
   margin: 45px 0 45px 0;
+}
+
+/*six section*/
+.social-img {
+ width: 360px; 
+}
+
+.social-card {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-buttons {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn-contact {
+  margin-bottom: 18px ;
+  border: 2px solid #e1e1e1;
+  height: 55px;
 }
 
 footer p {
