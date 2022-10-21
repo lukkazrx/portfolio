@@ -23,6 +23,22 @@ p{
   font-size: 1.2rem;
 }
 
+/* placards*/
+
+.placard {
+  background-image: linear-gradient(to right, #311fdc 0%, #3213cf 25%, #3310aa 50%, #300881 100%);
+  width: 100%;
+  height: 50px;
+  color: #ffffff;
+  font-family: 'baloo da 2';
+  color: #ffffff;
+  font-size: 1.4rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  word-spacing: 10px;
+}
+
+
 .padding10 {
   padding-left: 10%;
   padding-right: 10%;
@@ -38,6 +54,9 @@ p{
   width: 100%;
 }
 
+.shadows {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
 
 .sections {
   min-height: 800px;
@@ -62,6 +81,10 @@ p{
   align-items: center;
 }
 
+.first-screen {
+  background-image: linear-gradient(to top right, #932cbb 25%, #0061bb 50%, transparent 50%);
+}
+
 .computer-img {
   width: 90%;
   margin-top: 20%;
@@ -69,7 +92,7 @@ p{
 }
 
 .tittle {
-  background-image: linear-gradient(to right, #311fdc 0%, #3213cf 25%, #3310aa 50%, #300881 100%);
+  background-image: linear-gradient(to left, #311fdc 0%, #3213cf 25%, #3310aa 50%, #300881 100%);
   width: 90%;
   height: 100px;
   display: flex;
@@ -79,7 +102,15 @@ p{
 }
 
 #first-text {
-  color: #1e1e1e;
+  color: #e1e1e1;
+  padding-right: 27%;
+}
+
+#btn-fs {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  width: 90%;
+  margin: 0 20px 0 20px;
 }
 
 .tittle h1 {
@@ -92,18 +123,6 @@ p{
   height: 30px;
   background-color: transparent;
   border-radius: 5px;
-}
-/* placards*/
-
-.placard {
-  background-image: linear-gradient(to right, #311fdc 0%, #3213cf 25%, #3310aa 50%, #300881 100%);
-  width: 100%;
-  height: 50px;
-  color: #ffffff;
-  font-family: 'Baloo da 2';
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
  /* second section*/
@@ -157,7 +176,7 @@ p{
 }
 
 .about-card-img2{
-  margin-top: 65px;
+  margin-top: 50px;
   width: 155px;
 }
 
