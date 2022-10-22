@@ -18,6 +18,10 @@ h1, h2, h3 {
   font-family: 'baloo da 2';
 }
 
+h2 {
+  font-size: 1.6rem;
+}
+
 p{
   font-family: 'Inconsolata';
   font-size: 1.2rem;
@@ -28,13 +32,13 @@ p{
 .placard {
   background-image: linear-gradient(to right, #311fdc 0%, #3213cf 25%, #3310aa 50%, #300881 100%);
   width: 100%;
-  height: 50px;
+  height: 3.1rem;
   color: #ffffff;
   font-family: 'baloo da 2';
   color: #ffffff;
   font-size: 1.4rem;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
   word-spacing: 10px;
 }
 
@@ -45,7 +49,7 @@ p{
 }
 
 .border-gradient {
-  border-bottom: 2px solid;
+  border-bottom: 0.14rem solid;
   border-image: linear-gradient(90deg, #311fdc, #300881) 1;
 }
 
@@ -55,16 +59,16 @@ p{
 }
 
 .shadows {
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
 }
 
 .sections {
-  min-height: 800px;
+  min-height: 50rem;
 }
 
  /* nav bar*/
 .navegation {
-  height: 60px;
+  height: 3.7rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -94,7 +98,7 @@ p{
 .tittle {
   background-image: linear-gradient(to left, #311fdc 0%, #3213cf 25%, #3310aa 50%, #300881 100%);
   width: 90%;
-  height: 100px;
+  height: 6.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,9 +112,9 @@ p{
 
 #btn-fs {
   color: #ffffff;
-  border: 2px solid #ffffff;
+  border: 0.1rem solid #ffffff;
   width: 90%;
-  margin: 0 20px 0 20px;
+  margin: 0 1.2rem 0 1.2rem;
 }
 
 .tittle h1 {
@@ -120,23 +124,20 @@ p{
 
 .btn {
   width: 100%;
-  height: 30px;
+  height: 1.8rem;
   background-color: transparent;
-  border-radius: 5px;
+  border-radius: 0.3rem;
 }
 
  /* second section*/
-.about {
-  margin-bottom: 0px;
-}
 
 .about-card-container {
-  min-height: 1200px;
+  min-height: 75rem;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
-  padding-top: 60px;
-  padding-bottom: 50px;
+  padding-top: 3.7rem;
+  padding-bottom: 3.1rem;
 }
 
 .align-about-card-img {
@@ -147,10 +148,10 @@ p{
 
 .about-card {
   background-image: linear-gradient(to top, #53b3be 0%, #3650d3 100%);
-  max-width: 350px;
-  height: 450px;
-  border-radius: 10px;
-  margin-bottom: 160px;
+  max-width: 21.8rem;
+  height: 28.1rem;
+  border-radius: 0.6rem;
+  margin-bottom: 10rem;
 }
 
 .about-card h3 {
@@ -171,20 +172,20 @@ p{
 }
 
 .about-card-img{
-  margin-top: 100px;
-  width: 160px;
+  margin-top: 6.2rem;
+  width: 10rem;
 }
 
 .about-card-img2{
-  margin-top: 50px;
-  width: 155px;
+  margin-top: 3.1rem;
+  width: 9.6rem;
 }
 
 /* third section*/
 #list-certificate {
   font-size: 1.2rem;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .box-certificate {
@@ -196,17 +197,17 @@ p{
 
 .btn-certificate {
   background-color: transparent;
-  border: 2px solid #57ff2a;
+  border: 0.1rem solid #57ff2a;
   color: #1e1e1e;
 }
 
 .certificate-img {
-  width: 300px;
+  width: 18.7rem;
   margin-bottom: 3.4rem;
 }
 
 .schools {
-  margin: 30px 0 30px 0;
+  margin: 1.8rem 0 1.8rem 0;
 }
 
 /* four section*/
@@ -217,25 +218,28 @@ p{
 }
 
 .projects-img {
-  width: 240px;
+  width: 15rem;
 }
 
 .projects-card-container {
-  padding: 20px;
+  background-color: #f4f4f4;
+  padding: 1.2rem;
   width: 100%;
-  height: 550px;
+  height: 34.3rem;
   display: flex;
   scroll-snap-type: x mandatory;
-  scroll-padding: 12px;
+  scroll-padding: 0.7x;
   scroll-snap-align: start;
   overflow-x: scroll;
-  gap: 20px; 
+  gap: 1.2rem;
+  border-radius: 0.3rem;
 }
 
 .projects-card {
-width: 350px;
-height: 500px;
-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+width: 21.8rem;
+height: 31.2;
+box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
 text-align: center;
 scroll-snap-align: start;
 display: flex;
@@ -245,7 +249,7 @@ flex-direction: column;
 }
 
 .iframecard {
-width: 260px;
+width: 16.2rem;
 }
 
 .card-description {
@@ -257,39 +261,39 @@ justify-content: space-evenly;
 
 .btn-card {
   background-color: transparent;
-  border: 2px solid #57ff2a;
+  border: 0.1rem solid #57ff2a;
   color: #1e1e1e;
 }
 
 .btn-project {
   background-color: transparent;
-  border: 2px solid #311fdc;
-  margin: 45px 0 45px 0;
+  border: 0.1rem solid #311fdc;
+  margin: 2.8rem 0 2.8rem 0;
 }
 
 /*six section*/
 .social-img {
- width: 360px; 
+ width: 22.5rem; 
 }
 
 .social-card {
-  margin-top: 50px;
+  margin-top: 3.1rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .contact-buttons {
-  height: 400px;
+  height: 25rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
 .btn-contact {
-  margin-bottom: 18px ;
-  border: 2px solid #e1e1e1;
-  height: 55px;
+  margin-bottom: 1.1rem ;
+  border: 0.1rem solid #e1e1e1;
+  height: 3.4rem;
 }
 
 footer p {
