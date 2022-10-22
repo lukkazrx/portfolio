@@ -221,6 +221,7 @@ min-height: 56.2rem;
 .btn-certificate {
   background-color: transparent;
   border: 0.1rem solid #57ff2a;
+  font-family: 'Inconsolata';
   color: #1e1e1e;
 }
 
@@ -283,19 +284,21 @@ min-height: 56.2rem;
 
 .btn-card {
   background-color: transparent;
-  border: 0.1rem solid #57ff2a;
+  border: 0.1rem solid #1f74dc;
   color: #1e1e1e;
+  font-family: 'Inconsolata';
 }
 
 .btn-project {
   background-color: transparent;
-  border: 0.1rem solid #311fdc;
+  border: 0.1rem solid #57ff2a;
   margin: 2.8rem 0 2.8rem 0;
+  font-family: 'Inconsolata';
 }
 
 /*six section*/
 .social-img {
- width: 22.5rem; 
+ width: 21.5rem; 
 }
 
 .social-card {
