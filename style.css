@@ -27,6 +27,52 @@ p{
   font-size: 1.2rem;
 }
 
+/* SCROLLBAR */
+
+body::-webkit-scrollbar {
+  width: 10px;              
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #dedede;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to top, #53b3be 0%, #3650d3 100%); 
+  border-radius: 20px;       
+  border: 3px solid #dedede;  
+}
+
+.projects-card-container::-webkit-scrollbar {
+  height: 10px;
+}
+
+.projects-card-container::-webkit-scrollbar-track {
+  background-color: #dedede;
+}
+
+.projects-card-container::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to top, #53b3be 0%, #3650d3 100%); 
+  border-radius: 20px;       
+  border: 3px solid #dedede;  
+}
+
+.about-card-container::-webkit-scrollbar {
+  height: 10px;
+}
+
+.about-card-container::-webkit-scrollbar-track {
+  background-color: #dedede;
+}
+
+.about-card-container::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to top, #53b3be 0%, #3650d3 100%); 
+  border-radius: 20px;       
+  border: 3px solid #dedede;  
+}
+
+/* SCROLLBAR ENDS */
+
 /* placards*/
 
 .placard {
