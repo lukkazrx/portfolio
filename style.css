@@ -253,30 +253,8 @@ min-height: 56.2rem;
   flex-direction: column;
 }
 
-.btn-certificate {
-  background-color: transparent;
-  border: 0.1rem solid #57ff2a;
-  font-family: 'Inconsolata';
-  color: #1e1e1e;
-  margin-bottom: 3rem;
-  width: 100%;
-}
-
-.btn-certificate:hover {
-  border: none;
-  background-color: #5d4fe3;
-  color: #e1e1e1; 
-}
-
 .certificate-img {
   width: 18.7rem;
-}
-
-.btn-box {
-  margin-top: 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .schools {
